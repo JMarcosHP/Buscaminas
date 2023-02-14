@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Minesweeper</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">
+      BUSCAMINAS
+    </h1>
+    <h3 id="title">
+      Instrucciones:
+    </h3>
+    <p id="title">Debes presionar las casillas con precaución ya que hay 4 minas escondidas.</p>
+    <p id="title">Si presionas una casilla y no tiene una mina se pondrá de color verde y se añadirán 10 puntos.</p>
+    <p id="title">pero si contiene una mina, pierdes. Así mismo si se te acaban los 2 minutos.</p>
+    <p id="title">Ganas si encuentras al menos 15 casillas sin mina, y tu puntaje se multiplicará por 5 puntos por cada casilla sin minas.</p>
+    <p id="title"><b>Para comenzar, da click en el botón "Iniciar juego"</b></p>
+  </header>
+  <div id="gameContainer">
+    <div id="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+
+      <!-- other squares -->
+    </div>
+    <div id="score">
+      <p>Puntuación: <span id="scoreValue">0</span></p>
+      <p>Tiempo restante: <span id="timeValue">02:00</span></p>
+    </div>
+    <button id="startBtn">Iniciar juego</button>
+  </div>
+  <legend>
+    <p style="text-align: center;"><b>Desarrollador: Jehu Marcos Herrera Puentes</b></p>
+  </legend>
+  <script src="js/index.js"></script>
+</body>
+</html>
